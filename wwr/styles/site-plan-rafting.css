@@ -16,9 +16,9 @@
 }
 
 body {
-    f_____: var(--paragrapgh-font);
-    m_____: _____;
-    p_____: _____;
+    font-family: var(--paragrapgh-font);
+    max-width: 960;
+    padding: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -48,7 +48,7 @@ nav a {
     padding: 1rem;
 }
 
-Nav a:link, nav a:visited {
+nav a:link, nav a:visited {
     color: var(--nav-link-color);
 }
 
