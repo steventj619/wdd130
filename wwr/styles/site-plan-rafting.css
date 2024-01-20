@@ -1,13 +1,13 @@
 @import url(https://fonts.google.com/specimen/Anton?preview.text=Water%20Rafting&stroke=Sans+Serif)
 
 :root {
-    --primary-color: #XXXXXX;
-    --secondary-color: XXXXXX;
-    --accent1-color: XXXXXX;
-    --accent2-color: XXXXXX;
+    --primary-color: #00DD6B;
+    --secondary-color: #FF9829;
+    --accent1-color: #A1CDF4;
+    --accent2-color: #FFEAEA;
 
-    --heading-font: '_____', serif;
-    --paragrapgh-font: '_____', serif;
+    --heading-font: 'anton', serif;
+    --paragrapgh-font: 'anton', serif;
 
     --nav-background-color: XXXXXX;
     --nav-link-color: XXXXXX;
