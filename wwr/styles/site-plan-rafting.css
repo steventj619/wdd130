@@ -1,6 +1,6 @@
 @import url(https://fonts.google.com/specimen/Anton?preview.text=Water%20Rafting&stroke=Sans+Serif)
 
-root {
+:root {
     --primary-color: #00DD6B;
     --secondary-color: #FF9829;
     --accent1-color: #A1CDF4;
