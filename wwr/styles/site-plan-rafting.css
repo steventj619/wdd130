@@ -9,10 +9,10 @@
     --heading-font: 'anton', serif;
     --paragrapgh-font: 'anton', serif;
 
-    --nav-background-color: XXXXXX;
-    --nav-link-color: XXXXXX;
-    --nav-hover-link-color: XXXXXX;
-    --nav-hover-background-color: XXXXXX; 
+    --nav-background-color: #ffffff;
+    --nav-link-color: #ffffff;
+    --nav-hover-link-color: #ffffff;
+    --nav-hover-background-color: #ffffff; 
 }
 
 body {
