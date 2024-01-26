@@ -19,6 +19,7 @@ main img {
     border: 1px solide steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
 }
 
 p {
@@ -31,12 +32,10 @@ main {
 
 aside {
     width: 20rem
-    margin: 1rem;
-    border: 1px solid white; 
-    padding: 1rem;
-    background-color: white;
-    color: navy;
     text-align: center;
+    position: relative;
+    top: 47px;
+    left: 150px;
 }
 
 aside img {
@@ -48,4 +47,21 @@ footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Class Selectors */
+
+.box {
+    margin: 1tem;
+    border: 1px solid rgba(red, green, blue, alpha)
+    padding: 1rem;
+    background-color: #dddcolor: #000;
+
 }
