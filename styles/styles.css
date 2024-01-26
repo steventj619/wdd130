@@ -62,8 +62,8 @@ footer {
 /* Class Selectors */
 
 .box {
-    margin: 1rem;
+    margin: 10rem;
     border: 1px solid;
     padding: 1rem;
-    background-color: #ddd color: #000;
+    background-color: #000000 color;
 }
