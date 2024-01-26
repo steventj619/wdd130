@@ -1,5 +1,5 @@
 nav {
-    background-color: steelbnlue;
+    background-color: steelblue;
     padding: 10px;
 }
 
@@ -16,7 +16,7 @@ h1 {
 main img {
     width: 150px;
     height: auto;
-    border: 1px solide steelblue;
+    border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
     float: right;
@@ -31,7 +31,7 @@ main {
 }
 
 aside {
-    width: 20rem
+    width: 20rem;
     text-align: center;
     position: relative;
 }
@@ -64,8 +64,7 @@ footer {
 
 .box {
     margin: 1tem;
-    border: 1px solid rgba(red, green, blue, alpha)
+    border: 1px solid rgba;
     padding: 1rem;
     background-color: #dddcolor: #000;
-
 }
