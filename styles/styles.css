@@ -59,12 +59,11 @@ footer {
     box-sizing: border-box;
 }
 
-
 /* Class Selectors */
 
 .box {
-    margin: 1tem;
-    border: 1px solid rgba;
+    margin: 1rem;
+    border: 1px solid;
     padding: 1rem;
-    background-color: #dddcolor: #000;
+    background-color: #ddd color: #000;
 }
