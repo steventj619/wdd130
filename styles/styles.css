@@ -8,6 +8,16 @@ main {
     max-width: 840px;
 }
 
+main img {
+    width: 200px;
+    height: auto;
+    float: right;  
+}
+
+p {
+    padding: 0;
+}
+
 aside {
     position: relative;
     width: 20rem;
@@ -23,16 +33,6 @@ aside h2 {
 aside img {
     width: 200px;
     height: auto;
-}
-
-main img {
-    width: 200px;
-    height: auto;
-    float: right  
-}
-
-p {
-    padding: 0;
 }
 
 footer {
