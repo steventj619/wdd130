@@ -9,8 +9,15 @@ main {
 }
 
 aside {
+    position: relative;
     width: 20rem;
     text-align: center;
+}
+
+aside h2 {
+    position: absolute;
+    top: 50px;
+    left: 150px;
 }
 
 aside img {
