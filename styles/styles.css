@@ -11,7 +11,7 @@ nav {
 nav a {
     color: white;
     display: block;
-    padding: 20px;
+    padding: 1px;
 }
 
 h1 {
@@ -19,7 +19,7 @@ h1 {
 }
 
 main img {
-    width: 150px;
+    width: 100px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
@@ -54,7 +54,7 @@ aside img {
 
 footer {
     margin-top: 15px;
-    border-top: 1px solid #000;
+    border-top: 1px solid;
     text-align: center;
 }
 
@@ -64,5 +64,5 @@ footer {
     margin: 10rem;
     border: 1px solid;
     padding: 1rem;
-    background-color: #000000;
+    background-color: #3ae7b6;
 }
