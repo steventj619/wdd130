@@ -1,23 +1,23 @@
 @import url('https://fonts.google.com/specimen/Anton?preview.text=Water%20Rafting&stroke=Sans+Serif');
 
 :root {
-    --primary-color: #00DD6B;
-    --secondary-color: #FF9829;
-    --accent1-color: #A1CDF4;
-    --accent2-color: #FFEAEA;
+    --primary-color: #00395f;
+    --secondary-color: #000000;
+    --accent1-color: #00f7ff;
+    --accent2-color: #ff0000;
 
-    --heading-font: 'anton', serif;
-    --paragrapgh-font: 'anton', serif;
+    --heading-font: 'Anton', sans-serif;
+    --paragrapgh-font: 'Anton', sans-serif;
 
-    --nav-background-color: #ffffff;
-    --nav-link-color: #ffffff;
-    --nav-hover-link-color: #ffffff;
-    --nav-hover-background-color: #ffffff; 
+    --nav-background-color: #00f7ff;
+    --nav-link-color: #00395f;
+    --nav-hover-link-color: #fdfdfd;
+    --nav-hover-background-color: #00395f; 
 }
 
 body {
     font-family: var(--paragrapgh-font);
-    max-width: 960;
+    max-width: 960px;
     padding: 20px;
 }
 
