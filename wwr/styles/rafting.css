@@ -86,7 +86,7 @@ footer {
 }
 
 nav {
-    background-color: green;
+    background-color: var(--secondary-color);
     font-size: 1.2rem;
     display: flex;
     text-align: center;
@@ -111,6 +111,6 @@ nav a:link, nav a:visited {
 
 nav a:hover {
     color: white;
-    background-color: darkgreen;
+    background-color: #023018;
 
 }
