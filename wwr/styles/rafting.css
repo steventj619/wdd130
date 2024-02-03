@@ -67,8 +67,8 @@ main {
 .hero article img  {
     float: right;
     margin-left: 20px;
-    padding: 5;
-    margin: 5;
+    padding: 0;
+    margin: 0;
     opacity: .50;
 }
 
