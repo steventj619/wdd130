@@ -45,7 +45,7 @@ aside h2 {
     position: absolute;
     top: 50px;
     left: 150px;
-    float: inline-start;
+    float: left;
 }
 
 aside img {
