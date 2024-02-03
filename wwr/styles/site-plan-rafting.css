@@ -1,10 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
 :root {
     --primary-color: #044672;
     --secondary-color: #d65d17;
     --accent1-color: #00f7ff;
     --accent2-color: #ff0000;
+
 
     --heading-font:'Anton',sans-serif;
     --paragraph-font:'Anton',sans-serif;
@@ -13,12 +20,6 @@
     --nav-link-color: #00395f;
     --nav-hover-link-color: #fdfdfd;
     --nav-hover-background-color: #00395f;
-}
-
-body {
-    font-family: var(--paragraph-font);
-    max-width: 960px;
-    padding: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
