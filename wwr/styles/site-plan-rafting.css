@@ -7,10 +7,10 @@ body {
 }
 
 :root {
-    --primary-color: #044672;
-    --secondary-color: #d65d17;
-    --accent1-color: #00f7ff;
-    --accent2-color: #ff0000;
+    --primary-color: #FF0A0A;
+    --secondary-color: #00DD6B;
+    --accent1-color: #FF9829;
+    --accent2-color: ##A1CDF4;
 
 
     --heading-font:'Anton',sans-serif;
