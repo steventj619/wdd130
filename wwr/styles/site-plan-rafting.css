@@ -6,17 +6,17 @@
     --accent1-color: #00f7ff;
     --accent2-color: #ff0000;
 
-    --heading-font: 'Anton', sans-serif;
-    --paragrapgh-font: 'Anton', sans-serif;
+    --heading-font:'Anton',sans-serif;
+    --paragraph-font:'Anton',sans-serif;
     
-    --nav-background-color: #00f7ff;
+    --nav-background-color: #02a4aa;
     --nav-link-color: #00395f;
     --nav-hover-link-color: #fdfdfd;
     --nav-hover-background-color: #00395f;
 }
 
 body {
-    font-family: var(--paragrapgh-font);
+    font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
 }
