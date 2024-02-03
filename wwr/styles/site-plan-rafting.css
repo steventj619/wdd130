@@ -10,11 +10,10 @@ body {
     --primary-color: #FF0A0A;
     --secondary-color: #00DD6B;
     --accent1-color: #FF9829;
-    --accent2-color: ##A1CDF4;
+    --accent2-color: #A1CDF4;
 
-
-    --heading-font:'Anton',sans-serif;
-    --paragraph-font:'Anton',sans-serif;
+    --heading-font: 'Anton',sans-serif;
+    --paragraph-font: 'Anton',sans-serif;
     
     --nav-background-color: #02a4aa;
     --nav-link-color: #00395f;
