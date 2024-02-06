@@ -18,7 +18,8 @@ body {
 header {
     text-align: center;
     display: grid;
-    padding: 1rem;
+    padding: 5rem;
+    grid-template-columns: 1fr 8fr;
 }
 
 
@@ -33,6 +34,7 @@ p {
 a.social-link {
     text-decoration: none;
     color: var(--primary-color);
+    
 }
 
 main {
@@ -48,7 +50,7 @@ main {
 
 .hero img {
     display: block;
-    width: 100%;
+    width: 50%;
     height: auto;
     
 }
@@ -76,26 +78,30 @@ main {
     padding: 0;
     margin: 0;
     opacity: .50;
-    top: 10%;
-    left: 10%;
-    transform: translate(0%, -90%);
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
 
 footer {
-    text-align: center;
-}
-
-nav {
-    background-color: var(--secondary-color);
-    font-size: 1.2rem;
-    display: flex;
-    text-align: center;
-
+    text-align: right;
+    display: flex ;
+    justify-content: center;
 }
 
 img {
     max-width: 500px;
     margin-right: 15px;
+}
+
+nav {
+    background-color: var(--secondary-color);
+    font-size: 4rem;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
 }
 
 nav a {
@@ -105,11 +111,11 @@ nav a {
     padding: 1rem;
 }
 
-nav a:link, nav a:visited {
+a:link, nav a:visited {
     color: white;
 }
 
-nav a:hover {
+a:hover {
     color: white;
     background-color: #023018;
 

@@ -1,11 +1,11 @@
 * {
-    margin: 0;
+    margin: 2;
     padding: 0;
     box-sizing: border-box;
 }
 
 html {
-    background-color: #e4b779;
+    background-color: #ADDEFF;
 }
 
 main{
@@ -16,21 +16,30 @@ main{
 .grid {
     display: grid;
     align-items: center;
+    font-size: 1.2rem;
+    font-weight: 100;
 }
 
 header, footer, .grid {
-    max-width: 840px;
+    max-width: 1000px;
     margin: 0 auto;
+    color: #050505;
+
 }
 
 main img {
     width: 200px;
     height: auto;
     float: right;  
+    border: 2px solid #054A91;
+
 }
 
 p {
     padding: 0;
+    top: 50px;
+    font-size: 1.4rem;
+    font-weight: 500;
 }
 
 aside {
@@ -44,33 +53,41 @@ aside {
 aside h2 {
     position: absolute;
     top: 50px;
-    left: 150px;
+    left: 90px;
     float: left;
+    color: #050505;
+
 }
 
 aside img {
     width: 200px;
     height: auto;
-    background-color: rgb(124, 191, 246);
+    background-color: #050505 ;
+    border: 2px solid #054A91;
+
 }
 
 footer {
-    border-top: 1px solid #000;
+    border-top: 3px solid #050505;
     text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
 }
 
 /* Class Selectors */
 
 .box {
     margin: 1rem;
-    border: 1px solid rgb(157, 148, 148);
-    padding: 1rem;
-    background-color: steelblue;
-    color: #f0ac3d;
+    border: 1px 050505;
+    padding: 1.5rem;
+    background-color: #F2F6D0;
+    border: 4px solid #054A91;
+    
+
 }
 
 nav {
-    background-color: steelblue;
+    background-color: #F2F6D0;
     padding: 1em;
     display: flex;
     justify-content: space-evenly;
@@ -81,13 +98,39 @@ nav a {
     display: block;
     padding: .5rem;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 1000;
-    color:#ffffff; 
+    color: #050505; 
 }
 
 h1 {
-    border-bottom: #ffffff;
     padding: 1rem;
+    border-bottom: 2px solid #054A91;
+    font-size: 3rem;
+    font-weight: 750;
+
+}
+
+nav a:hover {
+    background-color: #ADDEFF;
+}
+
+.box p {
+    color: #050505;
+    font-size: 1.1rem;
+    font-weight: 1000;
+}
+
+.grid ul {
+    color: #050505;
+}
+
+nav a:link, nav a:visited {
+    color: #054A91;
+}
+
+.grid h1 {
+    border-top: 2px solid #054A91;
+    content: 1rem;
 }
 
