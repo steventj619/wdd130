@@ -52,6 +52,8 @@ main {
     position: relative;
     overflow: hidden;
     display: grid;
+    grid-template-columns: 4;
+    grid-template-rows: 2;
 }
 
 .hero img {
@@ -102,6 +104,7 @@ footer {
 img {
     max-width: 500px;
     margin-right: 15px;
+    text-align: center;
 }
 
 nav {
@@ -129,8 +132,8 @@ a:hover {
 
 }
 
-a.hero section img{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 1fr;
+figure {
+    display: flex;
+    max-width: 500px;
+    margin: 0 auto; 
 }
