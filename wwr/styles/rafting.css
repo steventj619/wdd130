@@ -43,9 +43,8 @@ main {
     height: auto;
     margin: 0 auto;
     padding: 4rem;
-    text-align: center;
     display: grid;
-    grid-template-rows:1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr 1fr 1fr;
 }
 
 .hero {
@@ -133,9 +132,21 @@ a:hover {
 
 }
 
-a.hero section img{
-    display: inline;
-    grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: 1fr;
 
-}
+figure {
+    
+    display: grid;
+    text-align: center;
+    max-width: 175px;
+    margin: auto;
+  
+  }
+  
+  figcaption {
+    font: var(--font-family);
+    padding: 10px;
+    text-align: center;
+    max-width: 175px;
+    
+  }
+  
