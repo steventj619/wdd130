@@ -52,8 +52,6 @@ main {
     position: relative;
     overflow: hidden;
     display: grid;
-    grid-template-columns: 4;
-    grid-template-rows: 2;
 }
 
 .hero img {
@@ -73,8 +71,6 @@ main {
     grid-column-end: 5;
     grid-row-start: 2;
     grid-row-end: 3;
-    
-    
 }
 
 .hero h1 {
@@ -137,5 +133,4 @@ a.hero section img{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 1fr;
-    max-width: 175;
 }
