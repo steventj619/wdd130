@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
     color: var(--text-color);
-    font-size: 25px;
+    font-size: 30px;
 }
 
 a.social-link {
@@ -52,8 +52,7 @@ main {
     position: relative;
     overflow: hidden;
     display: grid;
-    grid-template-columns: 4;
-    grid-template-rows: 2;
+   
 }
 
 .hero img {
@@ -136,4 +135,5 @@ figure {
     display: flex;
     max-width: 500px;
     margin: 0 auto; 
+    font-size: 25px;
 }
