@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Anton', sans-serif;
+    font-size: 2em;
+    color: #ffffff;
+    background: #ffffff;
+}
+
+header {
+    margin: 0 auto;
+    width: 650px;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 2em;
+    color: #000000;
+    text-align: center;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px #000000;
+    border-radius: .75rem;
+    background-color: #0032d4;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 0.75rem;
+    margin: 1rem;
+    border: 1px #000000;
+    padding: 1rem;
+}
+
+legend {
+    padding: .75rem;
+    color: #ffffff;
+    font-size: 2em;
+}
+
+label, input, button, select, textarea {
+    font-family: 'Anton', sans-serif;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: .75rem;
+    padding: .75rem;
+    font-size: 1.75rem;
+}
+
+button:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+footer {
+    margin: 1rem;
+    width: 650px;
+    text-align: center;
+    font-size: .75em;
+    color: #000000;
+    border-top: 1px #000000;
+    ;
+
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: .5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
