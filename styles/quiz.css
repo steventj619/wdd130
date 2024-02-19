@@ -61,5 +61,7 @@ button[type="submit"]:hover {
 }
 
 .question4 {
-    padding: 10px 200px;
+    padding: 10px 250px;
+    background-color: rgb(44, 44, 44);
+    color: #4dffd8;
 }
