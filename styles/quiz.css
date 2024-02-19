@@ -44,7 +44,7 @@ select {
 
 button[type="submit"] {
     background-color: #4dffd8;
-    color: rgb(0, 0, 0);
+    color: #000000;
     padding: 10px 200px;
     border: none;
     border-radius: 5px;
