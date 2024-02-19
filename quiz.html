@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>HTML & CSS Quiz</title>
+        <link rel="stylesheet" href="styles/quiz.css">
+    </head>
+    <body>
+        <header>
+            <h1>HTML & CSS Quiz</h1>
+        </header>
+        <main>
+            <form id="quiz_form">
+                <div class="question">
+                    <label for="q1">1. What is the required preamble declaration found at the top of all html documents?</label>
+                    <input type="text" id="q1" name="q1" required>
+                </div>
+                <div class="question">
+                    <label for="q2">2. What is the purpose of CSS?</label>
+                <textarea id="q2" name="q2" required></textarea>
+                </div>
+                <div class="question">
+                    <label for="q3">3. How can we change the text color of an element?
+                    </label>
+                    <select id="q3" name="q3" required>
+                        <option value="" selected disabled>Choose One ...</option>
+                        <option value="background-color">background-color</option>
+                        <option value="color">color</option>
+                        <option value="both">Both</option>
+                    </select>
+                </div>
+                <div class="question">
+                    <label for="q4">4. What is the total width of this div? 
+                        <div class="question4"
+                            <br>
+                            <br> div {
+                            <br>width: 100px;
+                            <br>padding-left: 10px;
+                            <br>margin: 15px;
+                            <br>}
+                            <br>
+                        </label>              
+                    </label>
+                    <input type="number" id="q4" name="q4" required>
+                </div>
+                <button type="submit">Submit Quiz</button>
+            </form>
+        </main>
+    </body>
+</html>
