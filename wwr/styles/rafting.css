@@ -147,13 +147,13 @@ h2{
 }
 
 .submit-button {
-    font-size: 0;
+    font-size: 1em;
 }
 
 .our-employees {
     display: flex;
     width: 25%;
-    padding: rem;
+    padding: 1rem;
 }
 
 form {
