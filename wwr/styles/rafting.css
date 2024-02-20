@@ -159,6 +159,10 @@ h2{
 form {
     background-color: var(--primary-color);
     color: var(--secondary-color);
-    padding: 1em;
+    padding: 2em;
 }
 
+.group-question p {
+    color: var(--secondary-color);
+    font-size: 25px;
+}
