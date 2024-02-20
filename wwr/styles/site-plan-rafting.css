@@ -7,15 +7,15 @@ body {
 }
 
 :root {
-    --primary-color: #FF0A0A;
-    --secondary-color: #00DD6B;
-    --accent1-color: #FF9829;
-    --accent2-color: #A1CDF4;
+    --primary-color: #00395f;
+    --secondary-color: #02CDD4;
+    --accent1-color: #02CDD4;
+    --accent2-color: #fdfdfd;
 
     --heading-font: 'Anton',sans-serif;
     --paragraph-font: 'Anton',sans-serif;
     
-    --nav-background-color: #02a4aa;
+    --nav-background-color: #02CDD4;
     --nav-link-color: #00395f;
     --nav-hover-link-color: #fdfdfd;
     --nav-hover-background-color: #00395f;
