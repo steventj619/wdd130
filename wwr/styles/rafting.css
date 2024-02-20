@@ -151,19 +151,16 @@ h2{
 }
 
 .our-employees {
-    grid-template-columns:1fr 1fr 1fr;
-    object-fit: cover;
-    text-align: center;
     display: flex;
-}
+    grid-template-columns:1fr 1fr 1fr;
+    width: 25%;
+    width: 25%;
+    justify-content: space-between;
 
 form {
     background-color: var(--primary-color);
     color: var(--secondary-color);
+    padding: 1em;
 }
 
-.our-employees {
-    width: calc(33.33% - 10px); /* Adjust width to fit three images on one line */
-    margin: 5px; /* Add spacing between images */
-    display: block;
-}
+
