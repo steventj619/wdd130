@@ -4,8 +4,15 @@
     box-sizing: border-box;
 }
 
+:root {
+    --primary-color: #00395f;
+    --secondary-color: #02CDD4;
+    --text-color: #242424;
+    --font-family: 'Anton', sans-serif;
+}
+
 html {
-    background-color: #ADDEFF;
+    background-color: var(--primary-color);
 }
 
 main{
@@ -23,7 +30,7 @@ main{
 header, footer, .grid {
     max-width: 1000px;
     margin: 0 auto;
-    color: #050505;
+    color: var(--secondary-color);
 
 }
 
@@ -31,7 +38,7 @@ main img {
     width: 200px;
     height: auto;
     float: right;  
-    border: 2px solid #054A91;
+    border: 5px solid white;
 
 }
 
@@ -80,14 +87,14 @@ footer {
     margin: 1rem;
     border: 1px 050505;
     padding: 1.5rem;
-    background-color: #F2F6D0;
-    border: 4px solid #054A91;
+    background-color: white;
+    border: 4px solid var(--primary-color);
     
 
 }
 
 nav {
-    background-color: #F2F6D0;
+    background-color: white;
     padding: 1em;
     display: flex;
     justify-content: space-evenly;
@@ -98,26 +105,27 @@ nav a {
     display: block;
     padding: .5rem;
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 20px;
     font-weight: 1000;
-    color: #050505; 
+    color: var(--secondary-color); 
 }
 
 h1 {
     padding: 1rem;
-    border-bottom: 2px solid #054A91;
+    border-bottom: 3px solid var(--secondary-color);
     font-size: 3rem;
     font-weight: 750;
 
 }
 
 nav a:hover {
-    background-color: #ADDEFF;
+    background-color: var(--primary-color);
+    
 }
 
 .box p {
-    color: #050505;
-    font-size: 1.1rem;
+    color: var(--primary-color);
+    font-size: 20px;
     font-weight: 1000;
 }
 
@@ -126,7 +134,7 @@ nav a:hover {
 }
 
 nav a:link, nav a:visited {
-    color: #054A91;
+    color: var(--secondary-color);
 }
 
 .grid h1 {
