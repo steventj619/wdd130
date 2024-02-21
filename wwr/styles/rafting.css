@@ -45,7 +45,7 @@ main {
     padding: 4rem;
     text-align: center;
     display: grid;
-    grid-template-rows:1fr 1fr 1fr;
+    grid-template-columns: repeat(1, 1fr);
 }
 
 .hero {
@@ -165,4 +165,42 @@ form {
 .group-question p {
     color: var(--secondary-color);
     font-size: 25px;
+}
+
+button[type="submit"] {
+    background-color: #4dffd8;
+    color: #000000;
+    padding: 15px 125px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 25px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+button[type="submit"]:hover {
+    background-color: #1bbb98;
+    color: #ffffff;
+}
+
+
+.booking-background {
+    background-color: var(--primary-color);
+    
+}
+
+.booking-background h1 {
+    color: white;
+
+}
+
+
+.booking-background h2, p {
+    color: var(--secondary-color)
+}
+
+.booking-background img {
+    padding-top: 50px;
 }
